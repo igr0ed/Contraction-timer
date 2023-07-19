@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+
+    <!-- Здесь блок с верхней плашкой (кнопка назад, название таймера, кнопка будильника) -->
+
+    <div class="first-block">
+      <div class="back-button"></div>
+      <div class="name">Contraction timer</div>
+      <div class="alarm"></div>
+    </div>
+
+    <!-- Здесь блок с центральной плашкой (сам таймер, доп. время, кнопка стоп) -->
+
+    <div class="second-block">
+      <div class="timer">00:00:11</div>
+      <div class="info-block">
+        <div class="text">Time since last contractions</div>
+        <div class="second-timer">7 min 32 sec</div>
+      </div>
+      <button class="button">Stop timing</button>
+    </div>
+
+    <!-- Здесь блок с таблицей (таблица) -->
+
+    <div class="third-block">
+      <table class="table">
+        <thead class="table-head">
+          <tr class="table-row">
+            <th class="th">Length</th>
+            <th class="th">Time apart</th>
+            <th class="th">Start & end time</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <tr class="table-row">
+            <td class="td">6s</td>
+            <td class="td">3 min 21 sec</td>
+            <td class="td">4:49pm - 4:49pm</td>
+          </tr>
+          <tr class="table-row">
+            <td class="td">4s</td>
+            <td class="td">16 min 22 sec</td>
+            <td class="td">4:49pm - 4:49pm</td>
+          </tr>
+          <tr class="table-row">
+            <td class="td">6s</td>
+            <td class="td">7 min 41 sec</td>
+            <td class="td">4:49pm - 4:49pm</td>
+          </tr>
+          <tr class="table-row">
+            <td class="td">12s</td>
+            <td class="td">21 min 01 sec</td>
+            <td class="td">4:49pm - 4:49pm</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
